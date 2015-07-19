@@ -1,0 +1,1 @@
+<footer id="footer">Matija Belec &copy; 2015. {@footer-rights}</footer>
