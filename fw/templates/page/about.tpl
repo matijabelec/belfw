@@ -18,7 +18,11 @@
     
     <main id="main">
         <h1>{@main-title}</h1>
-        <div>{@main-data}</div>
+        
+        <section id='section-author-info'>
+            <h2>{@main-author-bio-title}</h2>
+            <div>{@main-author-bio}</div>
+        </section>
     </main>
     
     {#include(region/footer)}

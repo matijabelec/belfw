@@ -18,7 +18,21 @@
     
     <main id="main">
         <h1>{@main-title}</h1>
-        <div>{@main-data}</div>
+        
+        <section id='section-motivation'>
+            <h2>{@main-motivation-title}</h2>
+            <div>{@main-motivation-content}</div>
+        </section>
+        
+        <section id='section-about'>
+            <h2>{@main-about-title}</h2>
+            <div>{@main-about-content}</div>
+        </section>
+        
+        <section id='section-skills'>
+            <h2>{@main-skills-title}</h2>
+            <div>{@main-skills-content}</div>
+        </section>
     </main>
     
     {#include(region/footer)}
