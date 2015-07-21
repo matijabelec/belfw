@@ -3,8 +3,7 @@
 class Template {
     protected $data = '';
     protected $values = array(
-                            'ROOT' => ROOT,
-                            'SITE' => ROOT.'/site'
+                            'ROOT' => ROOT
                         );
     
     protected function process_includes() {
@@ -27,6 +26,8 @@ class Template {
     }
     
     public function __construct($name) {
+        $this->values['SITE'] = ROOT . '/site';
+        
         $filename = ROOT_TPL . '/' . $name . '.tpl';
         
         if(file_exists($filename) ) {
