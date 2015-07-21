@@ -22,7 +22,7 @@ $route_list = array(
             )
         )
     ),
-    array(
+    /*array(
         'controller' => array(
             'name' => 'about',
             'class' => 'index'
@@ -33,7 +33,7 @@ $route_list = array(
                 'method' => 'about'
             )
         )
-    ),
+    ),*/
     array(
         'controller' => array(
             'name' => 'lang',

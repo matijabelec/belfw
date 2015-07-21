@@ -2,7 +2,7 @@
     <ul>
         <li><a href="{@ROOT}/">{@nav-home}</a></li>
         <li><a href="{@ROOT}/projects">{@nav-projects}</a></li>
-        <li><a href="{@ROOT}/about">{@nav-about}</a></li>
+        <!--<li><a href="{@ROOT}/about">{@nav-about}</a></li>-->
     </ul>
     
     <ul class="nav-langbar">

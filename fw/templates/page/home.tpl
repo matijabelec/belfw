@@ -6,7 +6,12 @@
     
     <link href='http://fonts.googleapis.com/css?family=Anton&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Francois+One&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    
+    <link rel="stylesheet" href="{@SITE}/css/reset.css">
+    <link rel="stylesheet" href="{@SITE}/css/standard.css">
     <link rel="stylesheet" href="{@SITE}/css/style.css">
+    <link rel="stylesheet" href="{@SITE}/css/home.css">
+    <link rel="stylesheet" href="{@SITE}/css/under-construction.css">
 </head>
 
 <body>
@@ -21,13 +26,13 @@
         
         <article class="author-main-info">
             <h2>CV</h2>
-            <section>
-                <h3>Main info</h3>
-                <address>
+            <section class="main-author-info">
+                <h3 class="title">{@main-author-info-title}</h3>
+                <address class="author-data-container">
                     <a href="http://matijabelec.com/">Matija Belec</a><br/>
                     E-mail: <a href="mailto:matijabelec1@gmail.com">matijabelec1@gmail.com</a><br/>
                     Tel.: <span>098 966 99 83</span>
-                <address>
+                </address>
                 <div class="image-container"><img src="{@SITE}/gfx/matija.jpg" alt="matija.jpg"/></div>
             </section>
             
@@ -72,7 +77,6 @@
                     <div data-id="tab4">
                         <section>
                             <h3>{@author-contact-title}</h3>
-                            <div class="image-container"><img src="" alt="matija.png"/></div>
                             <address>
                                 <a href="http://matijabelec.com/">Matija Belec</a><br/>
                                 E-mail: <a href="mailto:matijabelec1@gmail.com">matijabelec1@gmail.com</a><br/>
@@ -83,6 +87,12 @@
                 </div>
             </div>
         </article>
+        
+        <section class="section-under-construction">
+            <img src="{@SITE}/gfx/under-construction.png" alt="under-construction.png"/>
+            <h2>{@main-under-construction-title}</h2>
+            <p>{@main-under-construction}</p>
+        </section>
     </main>
     
     {#include(region/footer)}

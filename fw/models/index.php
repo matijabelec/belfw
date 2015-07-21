@@ -63,6 +63,9 @@ class Model_index extends Model {
         $this->data[$l]['author-skills-skill2'] = 'Web design';
         $this->data[$l]['author-projects-title'] = 'Projects';
         $this->data[$l]['author-contact-title'] = 'Contact';
+        $this->data[$l]['main-under-construction-title'] = 'Under construction';
+        $this->data[$l]['main-under-construction'] = 'This website is under construction!';
+        $this->data[$l]['main-author-info-title'] = 'Author\'s data';
         
         
         
@@ -106,6 +109,9 @@ class Model_index extends Model {
         $this->data[$l]['author-skills-skill2'] = 'Web dizajn';
         $this->data[$l]['author-projects-title'] = 'Projekti';
         $this->data[$l]['author-contact-title'] = 'Kontakt';
+        $this->data[$l]['main-under-construction-title'] = 'U izradi';
+        $this->data[$l]['main-under-construction'] = 'Ova je stranica u fazi izrade!';
+        $this->data[$l]['main-author-info-title'] = 'Podaci o autoru';
     }
     
     public function prepare_about() {

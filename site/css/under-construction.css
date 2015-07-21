@@ -1,0 +1,32 @@
+/**********************/
+/* under construction */
+/**********************/
+.section-under-construction{
+    display: block;
+    position: relative;
+    text-align: center;
+    margin-top: 50px;
+}
+.section-under-construction img{
+    max-width: 100%;
+    height: auto;
+}
+.section-under-construction h2{
+    position: absolute;
+    top: 6px;
+    left: 0;
+    right: 0;
+    font-size: 28pt;
+    color: #ededed;
+}
+.section-under-construction p{
+    position: absolute;
+    bottom: 6px;
+    left: 10%;
+    right: 10%;
+    font-size: 18pt;
+    color: #fafafa;
+    background-color: #212121;
+    padding: 8pt 10pt;
+    opacity: .8;
+}
