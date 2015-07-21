@@ -1,5 +1,12 @@
 <?php
 
+/*error_reporting(E_ALL);
+ini_set('display_errors', 'On');*/
+
+define('ROOT', ''); //define('ROOT', '/belfw');
+
+
+
 include_once('fw/version.php');
 include_once('fw/db_config.php');
 
