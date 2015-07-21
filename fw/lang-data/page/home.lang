@@ -88,24 +88,30 @@
     
     <item id="author-skills-title">
         <value lang="en">Skills</value>
+        <value lang="hr">Vještine</value>
     </item>
     <item id="author-skills">
         <value lang="en">Matija has this skills:</value>
+        <value lang="hr">Matija posjeduje sljedeće vještine:</value>
     </item>
     <item id="author-skills-skill1">
         <value lang="en">Programming</value>
+        <value lang="hr">Programiranje</value>
     </item>
     <item id="author-skills-skill2">
         <value lang="en">Web design</value>
+        <value lang="hr">Web dizajn</value>
     </item>
     
     
     <item id="author-projects-title">
         <value lang="en">Projects</value>
+        <value lang="hr">Projekti</value>
     </item>
     
     
     <item id="author-contact-title">
         <value lang="en">Contact</value>
+        <value lang="hr">Kontakt</value>
     </item>
 </data>

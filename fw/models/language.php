@@ -2,16 +2,16 @@
 
 class Model_language extends Model {
     public function set_lang($lang) {
-        switch($lang) {
+        /*switch($lang) {
             case 'en':
-            case 'hr':
+            case 'hr':*/
                 return Language::set($lang);
-                break;
+                /*break;
             default:
                 break;
         }
         
-        return false;
+        return false;*/
     }
 }
 

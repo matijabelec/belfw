@@ -1,6 +1,6 @@
 function prepare_tabs() {
     var tabcs = $(".tab-container");
-    $('.pane div').hide();
+    $('.pane').children('div').hide();
     
     tabcs.each(function(e){
         sel = $(this).children('ul.tabs').find('a').first();
@@ -17,7 +17,7 @@ function prepare_tabs() {
                 $(this).removeClass('selected');
             });
             $(this).addClass('selected');
-            $('.pane div').hide();
+            $('.pane').children('div').hide();
             $(this).closest('.tab-container').children('.pane').find('[data-id="' + tid + '"]').show();
             return false;
         });

@@ -62,7 +62,7 @@
                     <div data-id="tab2">
                         <section>
                             <h3>{@author-skills-title}</h3>
-                            <div>
+                            <div class="author-skills-container">
                                 <p>{@author-skills}</p>
                                 <ul>
                                     <li>{@author-skills-skill1}</li>
