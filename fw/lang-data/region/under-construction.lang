@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <item id="main-under-construction-title">
+        <value lang="en">Under construction</value>
+        <value lang="hr">U izradi</value>
+    </item>
+    <item id="main-under-construction">
+        <value lang="en">This website is under construction!</value>
+        <value lang="hr">Ova je stranica u fazi izrade!</value>
+    </item>
+    <item id="main-author-info-title">
+        <value lang="en">About author</value>
+        <value lang="hr">O autoru</value>
+    </item>
+</data>

@@ -4,40 +4,20 @@ class Model_errorpage extends Model {
     protected $data = array();
     
     public function __construct() {
-        $en = array();
-        $en['main-title'] = 'Ooops!';
-        $en['main-info'] = 'Page not found';
-        $en['main-home'] = 'home page';
-        $en['footer-rights'] = 'All Rights Reserved.';
-        $en['main-under-construction-title'] = 'Under construction';
-        $en['main-under-construction'] = 'This website is under construction!';
+        $this->lang = Language::get();
         
-        $hr = array();
-        $hr['main-title'] = 'Uuups!';
-        $hr['main-info'] = 'Stranica nije pronađena.';
-        $hr['main-home'] = 'početna stranica';
-        $hr['footer-rights'] = 'Sva prava zadržana.';
-        $hr['main-under-construction-title'] = 'U izradi';
-        $hr['main-under-construction'] = 'Ova je stranica u fazi izrade!';
+        $lang_page = Language::load_lang_file('page/error', $this->lang);
+        $lang_footer = Language::load_lang_file('region/footer', $this->lang);
+        $lang_uc = Language::load_lang_file('region/under-construction', $this->lang);
         
-        $this->data['en'] = $en;
-        $this->data['hr'] = $hr;
+        $this->data = array_merge(
+                            $lang_page, 
+                            $lang_footer, 
+                            $lang_uc);
     }
     
     public function get_data() {
-        $lang = Language::get();
-        
-        switch($lang) {
-            case 'en':
-            case 'hr':
-                $data = $this->data[$lang];
-                return $data;
-                break;
-            default:
-                break;
-        }
-        
-        return null;
+        return $this->data;
     }
 }
 

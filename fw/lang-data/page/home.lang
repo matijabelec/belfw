@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <item id="main-title">
+        <value lang="en">Matija Belec</value>
+        <value lang="hr">Matija Belec</value>
+    </item>
+    
+    <item id="author-bio-title">
+        <value lang="en">Bio</value>
+        <value lang="hr">Biografija</value>
+    </item>
+    <item id="author-bio-p1">
+        <value lang="en">He started to learn programming paradigms 
+            back in 2006. Then he was making some basic algorithms in QBasic. The year 
+            after, in 2007., he started to learn C/C++.</value>
+        <value lang="hr">Programsku paradigmu je počeo učiti još 
+            godine 2006. Tada je radiojednostavnije algoritme u QBasic-u. Slijedeće 
+            godine, 2007., počeo je učiti C/C++.</value>
+    </item>
+    <item id="author-bio-p2">
+        <value lang="en">From 2007 to 2010, his primarily programming 
+            language was C++. He worked on many little applications or libraries and 
+            modules. He learned OOP concept, how to develop stable desktop applications 
+            (both in Windows and Linux OS). After a while, he develop advanced knowledge 
+            of developing applications using wxWidgets library with database support 
+            (SQLite, MySQL, PostgreSQL).</value>
+        <value lang="hr">U razdoblju od 2007. do 2010. primarni 
+            programski jezik mu je bio C++. Radio je na dosta malih aplikacija ili 
+            biblioteka i modula. Tako je naučio koncept OOP-a, kako izraditi stabilnu 
+            računalnu aplikaciju (u Windows ili Linux OS-u). Stekao je naprednije 
+            znanje izrade aplikacija koristeći wxWidgets biblioteku uz podršku baze 
+            podataka (SQLite, MySQL, PostgreSQL).</value>
+    </item>
+    <item id="author-bio-p3">
+        <value lang="en">At the end of 2009, he started to play with 
+            hardware programming (C, Assembly). First steps of hardware programming he 
+            has with arduino controller.</value>
+        <value lang="hr">Krajem 2009. godine, počeo se igrati sa 
+            programiranjem sklopovlja (C, Assembly). Prvi koraci u programiranju 
+            sklopovlja su mu bili sa arduino kontrolerom.</value>
+    </item>
+    <item id="author-bio-p4">
+        <value lang="en">In period from 2010. to 2012, he was playing 
+            with image manipulation programs (such as Gimp and Inkscape) and modeling 3D 
+            models in Blender. He develop some algorithms in c++ and python in wich he 
+            learned to use c++ and python libraries such as Boost, OpenCV and OpenGL.</value>
+        <value lang="hr">Tokom razdoblja od 2010. do 2012. godine, 
+            radio je sa uređivačima grafike (Gimp, Inkscape), te se počeo zanimati za 
+            3D modeliranje u Blender alatu. Izradio nekoliko algoritama u c++-u i 
+            python-u (tada se naučio naprednijem korištenju programskih alata c++ i 
+            python, te korištenje biblioteka kao što su Boost, OpenCV i OpenGL sa 
+            navedenim programskim jezicima).</value>
+    </item>
+    <item id="author-bio-p5">
+        <value lang="en">In 2012. started to learn web development 
+            (HTML, CSS, PHP). In next two years he learned many principles and designs 
+            with backend development (PHP + MySQL) and frontend development(JS and 
+            JQuery). He have advanced level of knowledge in PHP and JQuery.</value>
+        <value lang="hr">U 2012. godini počeo je učiti web 
+            programiranje (HTML, CSS, PHP). U sljedeće dvije godine naučio je mnoge 
+            principe i uzorke dizajna orijetiranih na serversku stranu (PHP + MySQL), 
+            te orijentiranih na klijentsku stranu (JS i JQuery). Od tada posjeduje 
+            naprednije znanje PHP-a i JQuery-a.</value>
+    </item>
+    <item id="author-bio-p6">
+        <value lang="en">From 2013. he started to learn how to develop 
+            multithreaded algorithms on unix (primarily in c/c++) and how to use web 
+            sockets in linux (socket programming in c on linux OS).</value>
+        <value lang="hr">Od 2013. počinje učiti izradu višedretvenih 
+            algoritama na Linux OS-u (primarno u c/c++ programskom jeziku) i korištenje 
+            web utičnica u Linux-u (programiranje web socket-a u c-u).</value>
+    </item>
+    <item id="author-bio-p7">
+        <value lang="en">At end of 2014. he learned PHP MVC framework design pattern 
+            and from then, he is involved in development of his own MVC framework.</value>
+        <value lang="hr">Na kraju godine 2014. naučio je kako se 
+            izrađuje PHP MVC framework. Od tada radi na izradi vlastitog MVC framework-a.</value>
+    </item>
+    <item id="author-bio-p8">
+        <value lang="en">Today, in his free time, he develop algorithms 
+            and applications in C/C++ and Python, websites and web applications using 
+            MySQL, PHP and JQuery, create graphics in Gimp and Inkscape...</value>
+        <value lang="hr">Danas, u slobodno vrijeme, izrađuje algoritme 
+            i aplikacije u C/C++-u i Python-u, web stranice i web aplikacije temeljene na 
+            MySQL-u, PHP-u i JQuery-u, izrađuje grafiku u alatima Gimp i Inkscape...</value>
+    </item>
+    
+    
+    <item id="author-skills-title">
+        <value lang="en">Skills</value>
+    </item>
+    <item id="author-skills">
+        <value lang="en">Matija has this skills:</value>
+    </item>
+    <item id="author-skills-skill1">
+        <value lang="en">Programming</value>
+    </item>
+    <item id="author-skills-skill2">
+        <value lang="en">Web design</value>
+    </item>
+    
+    
+    <item id="author-projects-title">
+        <value lang="en">Projects</value>
+    </item>
+    
+    
+    <item id="author-contact-title">
+        <value lang="en">Contact</value>
+    </item>
+</data>

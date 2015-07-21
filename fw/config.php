@@ -17,6 +17,7 @@ define('BFW_CREATION_DATE', '27 Jun 2015');
 
 
 define('ROOT_TPL', __DIR__.'/templates');
+define('ROOT_LANG', __DIR__.'/lang-data');
 
 define('ROOT_GFX', ROOT.'/site/gfx');
 define('ROOT_CSS', ROOT.'/site/css');

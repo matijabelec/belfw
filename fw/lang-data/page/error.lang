@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <item id="main-title">
+        <value lang="en">Ooops!</value>
+        <value lang="hr">Uuups!</value>
+    </item>
+    <item id="main-info">
+        <value lang="en">Page not found</value>
+        <value lang="hr">Stranica nije pronađena.</value>
+    </item>
+    <item id="main-home">
+        <value lang="en">home page</value>
+        <value lang="hr">početna stranica</value>
+    </item>
+</data>
