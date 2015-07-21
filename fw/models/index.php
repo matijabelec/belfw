@@ -62,6 +62,7 @@ class Model_index extends Model {
         $this->data[$l]['author-skills-skill1'] = 'Programming';
         $this->data[$l]['author-skills-skill2'] = 'Web design';
         $this->data[$l]['author-projects-title'] = 'Projects';
+        $this->data[$l]['author-contact-title'] = 'Contact';
         
         
         
@@ -104,6 +105,7 @@ class Model_index extends Model {
         $this->data[$l]['author-skills-skill1'] = 'Programiranje';
         $this->data[$l]['author-skills-skill2'] = 'Web dizajn';
         $this->data[$l]['author-projects-title'] = 'Projekti';
+        $this->data[$l]['author-contact-title'] = 'Kontakt';
     }
     
     public function prepare_about() {
