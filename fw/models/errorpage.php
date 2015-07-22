@@ -1,7 +1,7 @@
 <?php
 
 class Model_errorpage extends Model {
-    protected $data = array();
+    public $data = array();
     
     public function __construct() {
         $this->lang = Language::get();
@@ -14,10 +14,6 @@ class Model_errorpage extends Model {
                             $lang_page, 
                             $lang_footer, 
                             $lang_uc);
-    }
-    
-    public function get_data() {
-        return $this->data;
     }
 }
 

@@ -5,24 +5,11 @@ class Ctrl_index extends Controller {
         $model = new Model_index;
         $view = new View_index;
         
-        $model->prepare_index();
+        $model->prepare();
         
-        $data = $model->get_data();
-        $lang = $model->get_lang();
-        
-        $view->show($data, $lang);
-    }
-    
-    public function about($args) {
-        $model = new Model_index;
-        $view = new View_index;
-        
-        $model->prepare_about();
-        
-        $data = $model->get_data();
-        $lang = $model->get_lang();
-        
-        $view->show_about($data, $lang);
+        $view->data = $model->data;
+        $view->lang = $model->lang;
+        $view->show();
     }
 }
 
