@@ -17,18 +17,6 @@ $route_list = array(
             )
         )
     ),
-    /*array(
-        'controller' => array(
-            'name' => 'about',
-            'class' => 'index'
-        ),
-        'actions' => array(
-            array(
-                'name' => 'index',
-                'method' => 'about'
-            )
-        )
-    ),*/
     array(
         'controller' => array(
             'name' => 'lang',
@@ -38,6 +26,24 @@ $route_list = array(
             array(
                 'name' => 'set',
                 'method' => 'set_lang'
+            )
+        )
+    ),
+    
+    
+    array(
+        'controller' => array(
+            'name' => 'wizzzard',
+            'class' => 'wizzzard'
+        ),
+        'actions' => array(
+            array(
+                'name' => 'show',
+                'method' => 'index2'
+            ),
+            array(
+                'name' => 'index',
+                'method' => 'index'
             )
         )
     )

@@ -2,6 +2,7 @@
 
 class Template {
     protected $data = '';
+    protected $filled_data = '';
     protected $values = array(
                             'ROOT' => ROOT
                         );
@@ -32,6 +33,7 @@ class Template {
         
         if(file_exists($filename) ) {
             $this->data = file_get_contents($filename);
+            $this->filled_data = $this->data;
             
             $this->process_includes();
         }
@@ -57,7 +59,7 @@ class Template {
         /*{@key}*/
         $string = $this->data;
         $pattern = '/\{\@([a-zA-Z0-9-]*)\}/i';
-        $this->data = preg_replace_callback(
+        $this->filled_data = preg_replace_callback(
             $pattern,
             function($matches) {
                 $value = $this->get($matches[1]);
@@ -70,7 +72,7 @@ class Template {
     }
     
     public function output() {
-        return $this->data;
+        return $this->filled_data;
     }
 }
 

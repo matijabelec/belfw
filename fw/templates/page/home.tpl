@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <title>Matija Belec - test</title>
+    <title>MatijaBelec.com</title>
     
     <link href='http://fonts.googleapis.com/css?family=Anton&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Francois+One&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
@@ -74,6 +74,7 @@
                     <div data-id="tab3">
                         <section>
                             <h3>{@author-projects-title}</h3>
+                            {#include(region/project-data)}
                         </section>
                     </div>
                     <div data-id="tab4">
